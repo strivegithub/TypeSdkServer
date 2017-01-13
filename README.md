@@ -16,7 +16,7 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">阿里游戏</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">5.2.3.5<br/></span>
+                <span style="font-family: 黑体, SimHei;">6.1.0<br/></span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
                 <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">6.1.0</span>
