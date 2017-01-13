@@ -29,7 +29,7 @@
             ,"mid" : 0
             ,"time" : "00000000000000"
             ,"signature" : ""
-            ,"ext" : ""
+            ,"cpOrder " : ""
             }
         ,"out_url" :"http://ngsdk.d.cn/api/cp/checkToken"
         ,"out_params" :
@@ -39,7 +39,7 @@
             ,"syorder" : 0
             ,"mid" : 0
             ,"time" : "00000000000000"
-            ,"ext" : ""
+            ,"cpOrder " : ""
             ,"sign" : ""
             }
         }

@@ -91,7 +91,7 @@ function compareOrder(attrs,gattrs,params,query,ret,game,channel,retf){
     retValue.code = query.result == 1 ? 0 : 1;
     retValue.id = query.mid;
     retValue.order = query.order;
-    retValue.cporder = query.ext;
+    retValue.cporder = query.cpOrder;
     retValue.info = query.ext;
 
     if(retValue.code!='0'){
@@ -165,7 +165,7 @@ function callGamePay(attrs,gattrs,params,query,ret,retf,game,channel)
     retValue.code = query.result == 1 ? 0 : 1;
     retValue.id = query.mid;
     retValue.order = query.order;
-    retValue.cporder = query.ext;
+    retValue.cporder = query.cpOrder;
     retValue.info = query.ext;
 
     if(retValue.code!='0'){
@@ -237,6 +237,7 @@ function checkSignPay(attrs,query)
         'mid=' + query.mid + '&' +
         'time=' + query.time + '&' +
         'result=' + query.result + '&' +
+        'cpOrder=' + query.cpOrder + '&' +
         'ext=' + query.ext + '&' +
         'key=' + attrs.secret_key
     ).digest('hex');
