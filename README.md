@@ -124,7 +124,7 @@
     </tbody>
 </table>
 <p>
-    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">本周个更新内容较多，阿里游戏聚合渠道更新，取消豌豆荚单独渠道，更换为海马玩</span>
+    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">20170113，本周个更新海马玩和当乐渠道最新版本</span>
 </p>
 <p></p>
 <hr/>
