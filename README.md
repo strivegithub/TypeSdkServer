@@ -196,7 +196,7 @@
     <span style="font-family: 黑体">游戏服务器接入文档：</span><a href="http://www.typesdk.com/docs/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"><span style="font-family:黑体;color:black">游戏服务器接入文档</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">DEMO演示地址：</span><a href="http://114.55.175.18:56789/"><span style="font-family:黑体;color:black">演示地址</span></a><span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 黑体">（用户名和密码：</span><a href="mailto:demo@typesdk.com/123.com"><span style="font-family:黑体;color:black">demo@typesdk.com/123.com</span></a><span style="font-family: 黑体">）</span>
+    <span style="font-family: 黑体">DEMO演示地址：</span><a href="http://www.typesdk.com"><span style="font-family:黑体;color:black">演示地址</span></a><span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 黑体">（用户名和密码：</span><a href="demo@typesdk.com/123.com"><span style="font-family:黑体;color:black">demo@typesdk.com/123.com</span></a><span style="font-family: 黑体">）</span>
 </p>
 <p style="margin: 5px 0 16px">
     <span style="font-family: 黑体">安装完成后请检查TCP:80;40000;3306;6379是否都已经开通</span>
