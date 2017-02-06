@@ -11,8 +11,8 @@ ver='1'
 apikey='typesdk.com'
 
 #游戏ID号和游戏名称
-gameid='1000'
-gamename='乔乔大冒险'
+gameid='1001'
+gamename='demo'
 
 #初始化redis库
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:ID id $gameid
@@ -23,9 +23,9 @@ redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gamename:NAME name $
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:VERSION version $ver
 
 #渠道号(必须和sdk相匹配,sdk字典的常量)和渠道相关参数
-fielduc='ch1'
-#UC渠道参数请修改gameId=app_id,apiKey=app_key，sdk_cp_id=cpId，其他参数不用修改
-valueuc='{"id":"1","name":"UC","attrs":{"app_id":"123345676","app_key":"1234567","channel_id":"1","sdk_cp_id":"123456","sdk_name":"UC","itemLists":[]}}'
+fielduc='ch301'
+#阿里游戏渠道参数请修改gameId=app_id,apiKey=app_key，sdk_cp_id=cpId，其他参数不用修改
+valueuc='{"id":"301","name":"AliUC","attrs":{"app_id":"123345676","app_key":"1234567","channel_id":"1","sdk_cp_id":"123456","sdk_name":"AliUC","itemLists":[]}}'
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fielduc $valueuc
 
 field360='ch3'
@@ -40,7 +40,7 @@ redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fiel
 
 fieldyouku='ch6'
 #优酷渠道参数请修改AppID=app_id，AppKey=app_key，AppSecret=secret_key，PayKey=private_key，pay_call_back_url=支付回调地址（http://ip:port/$gameid/6/Pay）其他参数不用修改
-valueyouku='{"id":"6","name":"YouKu","attrs":{"app_id":"123345676","app_key":"123345676","channel_id":"6","pay_call_back_url":"http://120.27.201.22:40000/1001/6/Pay","private_key":"123345676","sdk_name":"YouKu","secret_key":"123345676","itemLists":[]}}'
+valueyouku='{"id":"6","name":"YouKu","attrs":{"app_id":"123345676","app_key":"123345676","channel_id":"6","pay_call_back_url":"http://120.132.11.160:40000/1001/6/Pay","private_key":"123345676","sdk_name":"YouKu","secret_key":"123345676","itemLists":[]}}'
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fieldyouku $valueyouku
 
 fieldxiaomi='ch7'
@@ -60,7 +60,7 @@ redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fiel
 
 fieldvivo='ch14'
 #vivo渠道参数请修改AppID=app_id，cpkey=app_key，cpid=sdk_cp_id，PayKey=private_key，pay_call_back_url=支付回调地址（http://ip:port/$gameid/14/Pay）其他参数不用修改
-valuevivo='{"id":"14","name":"Vivo","attrs":{"app_id":"123345676","app_key":"123345676","channel_id":"14","pay_call_back_url":"http://120.27.201.22:40000/1001/14/Pay","sdk_cp_id":"123345676","sdk_name":"Vivo","itemLists":[]}}'
+valuevivo='{"id":"14","name":"Vivo","attrs":{"app_id":"123345676","app_key":"123345676","channel_id":"14","pay_call_back_url":"http://120.132.11.160:40000/1001/6/Pay","sdk_cp_id":"123345676","sdk_name":"Vivo","itemLists":[]}}'
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fieldvivo $valuevivo
 
 fieldwandoujia='ch22'
