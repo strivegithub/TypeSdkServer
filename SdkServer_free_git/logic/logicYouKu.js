@@ -253,10 +253,10 @@ function callGamePay(attrs,gattrs,params,query,ret,retf,game,channel,channelId)
 
 function checkSignPay(attrs,query)
 {
-    var StrSign =  logicCommon.utf16to8(attrs.pay_call_back_url + '?' +
+    var StrSign = attrs.pay_call_back_url + '?' +
         'apporderID=' + query.apporderID + '&' +
         'price=' + query.price + '&' +
-        'uid=' + query.uid).toString();
+        'uid=' + query.uid;
 
     var osign = crypto.createHmac('md5',attrs.private_key).update(StrSign).digest('hex');
     console.log(query.sign + " :: " + osign);

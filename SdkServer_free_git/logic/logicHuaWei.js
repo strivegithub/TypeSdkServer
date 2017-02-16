@@ -285,7 +285,8 @@ function checkSignPay(attrs,query)
     var publickey  = beginArray.join("");
 
     var v = crypto.createVerify('SHA1');
-    v.update(logicCommon.utf16to8(str));
+    //v.update(logicCommon.utf16to8(str));
+    v.update(str);
     var flag = v.verify(publickey,query.sign, 'base64');
     if(flag){
         console.log('Sign Success');

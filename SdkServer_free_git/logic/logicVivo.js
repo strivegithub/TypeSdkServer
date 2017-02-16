@@ -224,7 +224,7 @@ function callGamePay(attrs, gattrs, params, query, ret, retf, game, channel, cha
 function checkSignPay(attrs, query) {
     var keymd5 = crypto.createHash('md5').update(attrs.app_key).digest('hex').toLowerCase();
     var strdata = getSignStr(query);
-    var osign = crypto.createHash('md5').update(logicCommon.utf16to8(strdata) + '&' + keymd5).digest('hex').toLowerCase();
+    var osign = crypto.createHash('md5').update(strdata + '&' + keymd5).digest('hex').toLowerCase();
     console.log('checkSignPay:' + osign + '::' + query.signature);
     if (query.signature != osign) {
         return false;
@@ -240,7 +240,7 @@ function CreateChannelOrderSign(query, attrs) {
 
     var keymd5 = crypto.createHash('md5').update(attrs.app_key).digest('hex').toLowerCase();
     var strdata = getSignStr(query);
-    return crypto.createHash('md5').update(logicCommon.utf16to8(strdata) + '&' + keymd5).digest('hex').toLowerCase();
+    return crypto.createHash('md5').update(strdata + '&' + keymd5).digest('hex').toLowerCase();
 }
 
 function GetNowStr() {

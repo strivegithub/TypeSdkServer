@@ -265,7 +265,7 @@ function callGamePay(attrs,gattrs,params,query,ret,retf,game,channel,channelId)
 function checkSignPay(attrs,query)
 {
     var data =merge(true, query);
-    data.productName = logicCommon.utf16to8(data.productName);
+    //data.productName = logicCommon.utf16to8(data.productName);
 
     var str =
         "appId=" + data.appId + "&" +

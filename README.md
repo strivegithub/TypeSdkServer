@@ -35,13 +35,13 @@
         </tr>
         <tr>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">百度、91、多酷</span>
+                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">百度游戏</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">4.6.11</span>
+                <span style="font-family: 黑体, SimHei;">3.7.3</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">4.6.11</span>
+                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">3.7.3</span>
             </td>
         </tr>
         <tr>
@@ -115,16 +115,16 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">华为</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">7.1.1.301</span>
+                <span style="font-family: 黑体, SimHei;">7.2.1.301</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">7.1.1.301</span>
+                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">7.2.1.301</span>
             </td>
         </tr>
     </tbody>
 </table>
 <p>
-    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">20170113，本周个更新海马玩和当乐渠道最新版本</span>
+    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">20170215，本周个更新百度和华为渠道最新版本</span>
 </p>
 <p></p>
 <hr/>

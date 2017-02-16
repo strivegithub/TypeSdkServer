@@ -736,8 +736,8 @@ function checkSign(gkey, query, tarr) {
         str += query[tarr[i]] + '|';
     }
     console.log(str);
-    var osign = crypto.createHash('md5').update(logicCommon.utf16to8(str) + gkey).digest('hex');
-
+    //var osign = crypto.createHash('md5').update(logicCommon.utf16to8(str) + gkey).digest('hex');
+    var osign = crypto.createHash('md5').update(str + gkey).digest('hex');
     console.log(query.sign + " :: " + osign);
 
     if (query.sign != osign) {

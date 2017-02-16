@@ -67,8 +67,8 @@ function callChannelLogin(attrs, params, query, ret, retf) {
         method: params.method,
 
         qs: {
-            'token': logicCommon.utf16to8(cloned.token),
-            'fileId': logicCommon.utf16to8(cloned.ssoid)
+            'token': cloned.token,
+            'fileId': cloned.ssoid
         },
 
         headers: {
@@ -243,6 +243,7 @@ function callGamePay(attrs, gattrs, params, query, ret, retf, game, channel, cha
 }
 
 function checkSignPay(attrs, query) {
+
     var tempPublicKey = attrs.product_key;
     var beginArray = new Array();
     beginArray.push('-----BEGIN PUBLIC KEY-----');
@@ -266,7 +267,7 @@ function checkSignPay(attrs, query) {
         "attach=" + query.attach;
 
     var v = crypto.createVerify('sha1WithRSAEncryption');
-    v.update(logicCommon.utf16to8(str));
+    v.update(str);
     return v.verify(publickey, query.sign, 'base64');
 
 }
