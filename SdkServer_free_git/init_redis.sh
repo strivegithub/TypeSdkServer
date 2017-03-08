@@ -58,4 +58,8 @@ fielddangle='ch47'
 #当乐渠道参数请修改app=app_id，appKey=app_key，merchantId=product_id，payKey=secret_key其他参数不用修改
 valuedangle='{"id":"47","name":"DangLe","attrs":{"app_id":"123345676","app_key":"123345676","channel_id":"47","product_id":"123345676","sdk_name":"DangLe","secret_key":"123345676","itemLists":[]}}'
 redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fielddangle $valuedangle
+fielduc='ch777'
+#调试阿里游戏渠道参数，CP调试使用不用修改
+valueuc='{"id":"777","name":"DebugAliGame","attrs":{"app_id":"119474","app_key":"f25e24a1cb03252b48938235149f0798","channel_id":"777","CPID":"20087","sdk_cp_id":"20087","sdk_name":"DebugAliGame","itemLists":[]}}'
+redis-cli -h $RedisIP -p $RedisPort -a $RedisPWD hset GAME:$gameid:CHANNEL $fielduc $valueuc
 
