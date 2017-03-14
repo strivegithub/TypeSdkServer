@@ -68,7 +68,11 @@ http {
         }
         location / {
             proxy_pass http://127.0.0.1:40000;
-        }
+        }    
+		location /getIp {
+        default_type application/json;
+        return 200 '{"ip":"$remote_addr"}';
+		}
         error_page   500 502 503 504  /50x.html;
         location = /50x.html {
             root   html;

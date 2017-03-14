@@ -25,7 +25,7 @@
     <span style="color: rgb(84, 141, 212);"><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">2</span></strong><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">、处理支付回调</span></strong></span>
 </h2>
 <h2 style="margin: 5px 0 16px 48px;text-indent: 40px">
-    <span style="color: rgb(84, 141, 212);"><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">3</span></strong><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">、商品信息校验</span></strong></span><span style="font-family: Arial, sans-serif"></span>
+    <span style="color: rgb(84, 141, 212);"><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">3</span></strong><strong><span style="color: rgb(84, 141, 212); font-size: 19px; line-height: 173%; font-family: 黑体;">、商品信息校验</span></strong></span>
 </h2>
 <p>
     <a></a>
@@ -46,6 +46,12 @@
 <h3 style="white-space: normal; margin: 16px 0px; background: white;">
     <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">3</span><span style="font-size: 19px;">、<span style="font-family:黑体">安装脚本目前支持Centos_7.x_x86_64</span></span></span>
 </h3>
+<p>
+    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px;"><span style="font-family:黑体"></span></span></span>
+</p>
+<h3 style="white-space: normal; margin: 16px 0px; background: white;">
+    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">4</span><span style="font-size: 19px;">、<span style="font-family:黑体">项目使用NODEJS6.9开发</span></span></span>
+</h3>
 <hr/>
 <p>
     <span style="font-family: 黑体;">联系QQ：1771930259</span><br/>
@@ -54,13 +60,10 @@
     <span style="font-family: 黑体">官方网站：</span><a href="http://www.typesdk.com/"><span style="font-family:黑体;color:black">http://www.typesdk.com</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">支持渠道列表：</span><a href="http://www.typesdk.com/"><span style="font-family:黑体;color:black">支持列表</span></a>
+    <span style="font-family: 黑体">支持渠道：自建渠道；国内渠道；海外渠道；第三方支付；海外广告分析；海外广告检测，游戏好友分享</span>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">TypeSdkServer服务器部署文档：</span><a href="http://www.typesdk.com/docs/typesdk_install/typesdk_server/"><span style="font-family:黑体;color:black">服务器部署文档</span></a>
-</p>
-<p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">游戏服务器接入文档：</span><a href="http://www.typesdk.com/docs/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"><span style="font-family:黑体;color:black">游戏服务器接入文档</span></a>
+    <span style="font-family: 黑体">TypeSdk文档：</span><a href="http://www.typesdk.com/documents" target="_blank">文档中心</a>
 </p>
 <p style="margin: 0 0 16px">
     <span style="font-family: 黑体">DEMO演示地址：</span><a href="http://demo.typesdk.com:56789/"><span style="font-family:黑体;color:black">演示地址</span></a><span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 黑体">（用户名和密码：demo@typesdk.com/123.com）</span>
